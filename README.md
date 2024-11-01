@@ -35,7 +35,7 @@ $\normalsize{\textsf{\color{violet}деятельности" 2023-2024 гг.}}$
 * Создайте виртуальную среду с помощью команды:
   
 ```python
-  python3 -m venv env (замените 'env' на желаемое имя среды)
+  python -m venv env (замените 'env' на желаемое имя среды)
 ```
 
 * Активируйте виртуальную среду в Windows:  `env\Scripts\activate`
