@@ -9,25 +9,25 @@ class Computer:
         self.name = 'Компьютер'
         self.stone = pg.transform.scale(pg.image.load('images/r_stone.png'),
                                         (144, 183))
-        self.stone_rect = self.stone.get_rect(center=(sc.width - 100,
+        self.stone_rect = self.stone.get_rect(center=(sc.width - 120,
                                                       sc.height / 2))
         self.scissors = pg.transform.scale(
             pg.image.load('images/r_scissors.png'), (144, 183))
-        self.scissors_rect = self.scissors.get_rect(center=(sc.width - 100,
+        self.scissors_rect = self.scissors.get_rect(center=(sc.width - 120,
                                                             sc.height / 2))
         self.paper = pg.transform.scale(pg.image.load('images/r_paper.png'),
                                         (144, 183))
-        self.paper_rect = self.paper.get_rect(center=(sc.width - 100,
+        self.paper_rect = self.paper.get_rect(center=(sc.width - 120,
                                                       sc.height / 2))
         self.start = pg.transform.scale(pg.image.load('images/r_start.png'),
                                         (144, 183))
-        self.start_rect = self.start.get_rect(center=(sc.width - 100,
+        self.start_rect = self.start.get_rect(center=(sc.width - 120,
                                                       sc.height / 2))
         self.start_rotate = pg.transform.scale(
             pg.image.load('images/r_start.png'), (144, 183))
         self.win = pg.transform.scale(pg.image.load('images/r_win.png'),
                                       (144, 183))
-        self.win_rect = self.win.get_rect(center=(sc.width - 100,
+        self.win_rect = self.win.get_rect(center=(sc.width - 120,
                                                   sc.height / 2))
         self.choice = None
         self.rotation = False
