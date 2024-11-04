@@ -59,7 +59,7 @@ while running:
 
         selected_text = ft.arial.render('Сделай свой выбор', True, (colors.yellow))
         sc.win.blit(selected_text,
-                    ((sc.width / 2) - 130, (sc.height / 2) - 100))
+                    ((sc.width / 2) - 140, (sc.height / 2) - 50))
 
         btn_stone.draw(sc.win)
         btn_scissors.draw(sc.win)
@@ -98,14 +98,20 @@ while running:
         else:
             if player.choice == computer.choice:
                 scores.change_scores(0, 0)
+                sound_game.play_draw('music/draw.mp3')
+                result_text = "Ничья"
             elif player.choice == 1 and computer.choice == 2:
                 scores.change_scores(1, 0)
+                sound_game.play_victory('music/victory.mp3')
             elif player.choice == 2 and computer.choice == 3:
                 scores.change_scores(1, 0)
+                sound_game.play_victory('music/victory.mp3')
             elif player.choice == 3 and computer.choice == 1:
                 scores.change_scores(1, 0)
+                sound_game.play_victory('music/victory.mp3')
             else:
                 scores.change_scores(0, 1)
+                sound_game.play_game_over('music/game_over.mp3')
 
             
             sound_game.play_choice('music/choice.mp3')
