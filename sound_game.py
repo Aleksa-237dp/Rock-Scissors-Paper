@@ -21,6 +21,18 @@ class SoundGame:
 
             self.victory.play()
 
+    def play_draw(self, draw=None):
+        if draw:
+            self.draw = pg.mixer.Sound(draw)
+
+            self.draw.play()
+
+    def play_game_over(self, game_over=None):
+        if game_over:
+            self.game_over = pg.mixer.Sound(game_over)
+
+            self.game_over.play()
+
     def play_start(self, start=None):
         if start:
             self.start = pg.mixer.Sound(start)
