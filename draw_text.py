@@ -36,8 +36,8 @@ class WinText:
         sc.win.blit(self.player_name, (30, 50))
         sc.win.blit(self.score_text_heading,
                     ((sc.width - 80) / 2, sc.height - 100))
-        sc.win.blit(self.computer_name, (sc.width - 200, 50))
-        sc.win.blit(self.number_rounds_heading, (sc.width / 2 - 150, 50))
+        sc.win.blit(self.computer_name, (sc.width - 210, 50))
+        sc.win.blit(self.number_rounds_heading, (sc.width / 2 - 140, 50))
         sc.win.blit(
             ft.arial.render(str(self.number_rounds), True, (colors.yellow)),
             ((sc.width / 2) - 20, sc.height - 500))
