@@ -1,64 +1,64 @@
-## Игра "Камень-Ножницы-Бумага" на Python с использованием библиотеки PyGame 🐍
+## Rock-Paper-Scissors game in Python using the PyGame library 🐍
 
 [![](https://img.shields.io/badge/github-blueviolet?style=for-the-badge)](https://github.com/pygame/pygame)
 [![](https://img.shields.io/badge/book-green?style=for-the-badge)](https://pygame-docs.website.yandexcloud.net/tut/PygameIntro.html)
 
 
-$\normalsize{\textsf{\color{violet}Я прошла курс "Код Будущего" по направлению "Практическое применение Python в инженерной и научной}}$
-$\normalsize{\textsf{\color{violet}деятельности" 2023-2024 гг.}}$
+$\normalsize{\textsf{\color{violet}I took the Future Code course on "Practical applications of Python in engineering and science}}$
+$\normalsize{\textsf{\color{violet}activities" 2023-2024.}}$
 
 
 > [!NOTE]
-> Pygame - это мощная библиотека для разработки игр, предлагающая широкий ряд функций, которые упростят ваше путешествие по программированию. С помощью Pygame вы можете легко создавать 2D-игры, управлять графикой, звуком и вводом от пользователя. Библиотека предоставляет удобные инструменты для работы с изображениями, анимацией, обработкой событий и многим другим, что делает её отличным выбором как для начинающих, так и для опытных разработчиков. Благодаря активному сообществу и множеству доступных ресурсов, вы сможете быстро освоить Pygame и начать создавать свои собственные игры.
+> Pygame is a powerful game development library that offers a wide range of features to simplify your programming journey. With Pygame, you can easily create 2D games, manage graphics, sound, and user input. The library provides handy tools for handling images, animations, event handling, and more, making it a great choice for beginners and experienced developers alike. With an active community and many available resources, you'll be able to quickly learn Pygame and start creating your own games.
 
-🎮 Игра "Камень-ножницы-бумага" — это классическая игра, в которой игрок и компьютер одновременно выбирают один из трёх вариантов: камень, ножницы или бумагу. 
+🎮 The Rock-Paper-Scissors game is a classic game in which the player and computer simultaneously choose one of three options: rock, scissors, or paper. 
 
-📝 Правила просты:
-Камень побеждает ножницы, ножницы побеждают бумагу, а бумага побеждает камень.
+📝 The rules are simple:
+Rock beats scissors, scissors beats paper, and paper beats rock.
 
 <img src="https://i.ibb.co/r3g8FdJ/2024-11-05-002239.png" width="650" height="500">
 
-## Инструкции по подключению к игре «Камень-ножницы-бумага»
+## Instructions on how to connect to the "Rock-Paper-Scissors" game
 
-| Загрузите репозиторий |
+| Download the repository |
 
-* В репозитории, который вы выбрали, нажмите зелёную кнопку "Code" и скопируйте URL-адрес.
-* Затем в Visual Studio Code (или другом редакторе кода) откройте терминал и введите команду:
+* In the repository you selected, click the green ‘Code’ button and copy the URL.
+* Then, in Visual Studio Code (or other code editor), open a terminal and type the command:
   
 ```python
-  git clone [адрес репозитория]
+  git clone [repository address]
 ```
 
-| Создайте виртуальную среду |
+| Create a virtual environment |
 
-* Откройте терминал (или командную строку) и перейдите в каталог проекта.
-* Создайте виртуальную среду с помощью команды:
+* Open a terminal (or command line) and navigate to the project directory.
+* Create a virtual environment using the command:
   
 ```python
-  python -m venv env (замените 'env' на желаемое имя среды)
+  python -m venv env (replace ‘env’ with the desired environment name)
 ```
 
-* Активируйте виртуальную среду в Windows:  `env\Scripts\activate`
-* Или активируйте виртуальную среду в macOS/Linux:  `source env/bin/activate`
+* Activate the virtual environment in Windows: `env\Scripts\activate`
+* Or activate the virtual environment in macOS/Linux: `source env/bin/activate`
   
-| Установите зависимости |
+| Install dependencies |
 
-* После активации виртуальной среды установите необходимые библиотеки из файла `requirements.txt`
+* After activating the virtual environment, install the required libraries from the `requirements.txt` file
  
 ```python
   pip install -r requirements.txt
 ```
-| Запустите игру |
+| Start the game |
 
-* Перейдите в каталог, содержащий файл (обычно это корневой каталог проекта) `main.py`
-* Запустите игру с помощью команды:
+* Navigate to the directory containing the file (usually the root directory of the project) `main.py`
+* Start the game using the command:
   
 ```python
   python main.py
 ```
-| Дополнительные примечания |
+| Additional Notes |
   
-* Убедитесь, что у вас установлена ​​соответствующая версия Python, как указано в `requirements.txt`
-* И установлены все необходимые библиотеки `pip install pygame`
+* Make sure you have the appropriate version of Python installed, as specified in `requirements.txt`
+* And have all the necessary libraries `pip install pygame` installed
   
-  (Если вы используете другую IDE или редактор, вам может потребоваться настроить среду так, чтобы она могла найти виртуальную среду и установленные библиотеки.)
+  (If you are using a different IDE or editor, you may need to configure the environment so that it can find the virtual environment and installed libraries)
