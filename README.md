@@ -1,7 +1,7 @@
 ## Rock-Paper-Scissors game in Python using the PyGame library 🐍
 
-[![](https://img.shields.io/badge/github-blueviolet?style=for-the-badge)](https://github.com/pygame/pygame)
-[![](https://img.shields.io/badge/book-green?style=for-the-badge)](https://pygame-docs.website.yandexcloud.net/tut/PygameIntro.html)
+[![](https://img.shields.io/badge/github(pygame)-blueviolet?style=for-the-badge)](https://github.com/pygame/pygame)
+[![](https://img.shields.io/badge/book(pygame)-green?style=for-the-badge)](https://pygame-docs.website.yandexcloud.net/tut/PygameIntro.html)
 
 
 $\normalsize{\textsf{\color{violet}I took the Future Code course on "Practical applications of Python in engineering and science}}$
