@@ -47,6 +47,7 @@ Rock beats scissors, scissors beats paper, and paper beats rock.
 ```python
   pip install -r requirements.txt
 ```
+
 | Start the game |
 
 * Navigate to the directory containing the file (usually the root directory of the project) `main.py`
@@ -55,6 +56,7 @@ Rock beats scissors, scissors beats paper, and paper beats rock.
 ```python
   python main.py
 ```
+
 | Additional Notes |
   
 * Make sure you have the appropriate version of Python installed, as specified in `requirements.txt`
