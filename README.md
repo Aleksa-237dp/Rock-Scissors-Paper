@@ -4,8 +4,8 @@
 [![](https://img.shields.io/badge/book(pygame)-green?style=for-the-badge)](https://pygame-docs.website.yandexcloud.net/tut/PygameIntro.html)
 
 
-$\normalsize{\textsf{\color{violet}I took the Future Code course on "Practical applications of Python in engineering and science}}$
-$\normalsize{\textsf{\color{violet}activities" 2023-2024.}}$
+$\normalsize{\textsf{\color{violet}I took the Future Code course on "Practical applications of Python in engineering and science
+<p>activities" 2023-2024.</p>}}$
 
 
 > [!NOTE]
