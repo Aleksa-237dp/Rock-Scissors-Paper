@@ -1,15 +1,15 @@
-'''Класс  Button  принимает следующие параметры: 
--  x ,  y  - координаты верхнего левого угла кнопки 
--  width ,  height  - ширина и высота кнопки 
--  text  - текст, отображаемый на кнопке (необязательный параметр) 
--  image  - изображение, отображаемое на кнопке (необязательный параметр) 
--  font  - путь к файлу шрифта (необязательный параметр) 
--  font_size  - размер шрифта (необязательный параметр) 
--  bg_color  - цвет фона кнопки (необязательный параметр) 
--  text_color  - цвет текста кнопки (необязательный параметр) 
--  hover_color  - цвет кнопки при наведении на нее (необязательный параметр) 
+'''The Button class accepts the following parameters: 
+- x , y - coordinates of the upper left corner of the button 
+- width , height - width and height of the button 
+- text - text displayed on the button (optional parameter) 
+- image - image displayed on the button (optional parameter) 
+- font - font file path (optional parameter) 
+- font_size - font size (optional parameter) 
+- bg_color - button background color (optional parameter) 
+- text_color - button text color (optional parameter) 
+- hover_color - button color when hovering over it (optional parameter) 
  
-Вы можете создать экземпляр класса  Button , указав необходимые параметры, и затем вызвать метод  draw  для отображения кнопки на экране. Метод  handle_event  обрабатывает события мыши, чтобы отслеживать наведение и клики на кнопку.'''
+You can create an instance of Button class by specifying the required parameters and then call the draw method to display the button on the screen. The handle_event method handles mouse events to keep track of button hovering and clicks.'''
 
 import pygame as pg
 from pygame.locals import *
@@ -83,6 +83,6 @@ btn_stone = Button(sc.width / 2 - 175, sc.height / 2 + 100, 100, 50, text='Ка�
 btn_scissors = Button(sc.width / 2 -50, sc.height / 2 + 100, 100, 50, text='Ножницы')
 btn_paper = Button(sc.width / 2 + 75, sc.height / 2 + 100, 100, 50, text='Бумага')
 
-'''Cвойство  click_color , определяет цвет кнопки при нажатии. В методе  draw  проверяется состояние кнопки ( is_clicked ), и если кнопка нажата, то используется цвет  click_color . В методе  handle_event  обрабатывается событие  MOUSEBUTTONDOWN , чтобы установить флаг  is_clicked  в значение  True , а событие  MOUSEBUTTONUP  сбрасывает флаг  is_clicked  в значение  False . 
+'''The click_color property , defines the color of the button when it is clicked. The draw method checks the state of the button ( is_clicked ), and if the button is clicked, the click_color is used . The handle_event method handles the MOUSEBUTTONDOWN event to set the is_clicked flag to True , and the MOUSEBUTTONUP event resets the is_clicked flag to False . 
  
-При нажатии на кнопку она будет менять цвет на  click_color .'''
+When the button is clicked, it will change its color to click_color .'''
