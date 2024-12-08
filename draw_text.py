@@ -2,7 +2,7 @@ from settings import colors, ft, sc
 from player import player
 from computer import computer
 
-# отрисовка текста
+# text rendering
 class WinText:
 
     def __init__(self):
